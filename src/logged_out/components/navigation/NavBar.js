@@ -31,7 +31,7 @@ const styles = theme => ({
     fontWeight: theme.typography.h6.fontWeight
   },
   brandText: {
-    fontFamily: "'Baloo Bhaijaan', cursive",
+    fontFamily: "'Baloo Bhaijaan'",
     fontWeight: 400
   },
   noDecoration: {
@@ -80,9 +80,9 @@ function NavBar(props) {
               variant="h4"
               className={classes.brandText}
               display="inline"
-              color="primary"
+              color="secondary"
             >
-              Wa
+             Stellar
             </Typography>
             <Typography
               variant="h4"
@@ -90,7 +90,7 @@ function NavBar(props) {
               display="inline"
               color="secondary"
             >
-              Ver
+              Foundries
             </Typography>
           </div>
           <div>

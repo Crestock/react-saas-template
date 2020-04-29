@@ -123,8 +123,8 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Free Template for building an SaaS app using
-                          Material-UI
+                          Supply Chains are complicated... but they don't have to be.
+                        
                         </Typography>
                       </Box>
                       <div>
@@ -132,9 +132,8 @@ function HeadSection(props) {
                           <Typography
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
-                          >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
+                          > Discover how you can recieve quotes from metal suppliers instatly. 
+                            Customisable orders and the best prices.
                           </Typography>
                         </Box>
                         <Button
@@ -143,9 +142,9 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                         
                         >
-                          Download from GitHub
+                         DISCOVER SOLUTION
                         </Button>
                       </div>
                     </Box>
